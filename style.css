@@ -7,12 +7,9 @@
   }
   span
   {
-      vertical-align: middle;
       color:#FFF;
       font-size:xxx-large;
-        width: 100%;
-        height: 100%;
-        text-align: center;
+      text-align: center;
   }
   /* Float four columns side by side */
   .column {
@@ -23,7 +20,7 @@
   
   .container {
     float: right;
-    width: 70%;
+    width: 80%;
     height: 90%;
   }
   
@@ -33,9 +30,10 @@
     width: 100%;
     height: 90%;
   }
-  .row1 {
+  .controls {
     float: right;
     width: 20%;
+    padding: 10px;
   }
   
   /* Style the counter cards */
@@ -46,19 +44,9 @@
     height: 100%;
     float: none;
   }
-  .color
-  {
-      width: 100%;
-      height: 100%;
-      background-color: blue;
-  }
-  .textStyle
-  {
-      color: blueviolet;
-  }
 
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #2B8EAD;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -66,9 +54,13 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(21, 53, 90, 0.2);
+    cursor: pointer;
+    width: 100px;
+
   }
   /* Responsive columns */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 375px) {
     .column {
       width: 100%;
       display: block;
@@ -87,20 +79,12 @@
     width: 100%;
     height: 90%;
   }
-  .row1 {
+  .controls {
     float: right;
     width: 100%;
-  }
-  
-  .textStyle
-  {
-      color:tomato;
-  }
-  .color
-  {
-      width: 10%;
-      height: 100%;
-      background-color: blue;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
   }
   span
   {
